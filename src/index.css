@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Example custom font */
+  background-color: #f9fafb; /* Light background color */
+}
+
+/* Custom Classes */
+.btn-custom {
+  @apply bg-blue-500 text-white py-2 px-4 rounded; /* Example of using Tailwind utilities in a custom class */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .responsive-class {
+    /* Styles for smaller screens */
+  }
+}
